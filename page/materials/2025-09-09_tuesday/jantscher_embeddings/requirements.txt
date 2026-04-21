@@ -1,0 +1,7 @@
+numpy
+pyarrow
+scikit-learn~=1.7.1
+tqdm~=4.67.1
+sentence-transformers~=5.1.0
+bertopic~=0.17.3
+pandas~=2.3.2
