@@ -12,8 +12,4 @@ Department of Digital Humanities, University of Graz
 ## Funding
 The school is funded by CLARIAH-AT, DARIAH-EU, and the University of Graz
 
-<img src="docs/images/clariah-at-logo.png" alt="CLARIAH-AT" height="60">
-&nbsp;&nbsp;
-<img src="docs/images/dariah.png" alt="DARIAH" height="60">
-&nbsp;&nbsp;
-<img src="docs/images/Logo_Uni-Graz_4c.jpg" alt="University of Graz" height="80">
+<img src="docs/images/clariah-at-logo.png" alt="CLARIAH-AT" height="60"> <img src="docs/images/dariah.png" alt="DARIAH" height="60"> <img src="docs/images/Logo_Uni-Graz_4c.jpg" alt="University of Graz" height="80">
