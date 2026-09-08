@@ -35,6 +35,15 @@ If you use or refer to the Summer School or its materials as a whole, please cit
 }
 ```
 
+### Citing individual materials
+
+The materials in this repository have been created by different instructors. If you use or refer to a specific contribution, such as slides, a Jupyter notebook, or a dataset, please **cite the respective author(s) and the individual material**, rather than citing only the repository.
+
+A suggested citation format is:
+
+> **Author(s). (2026).** *Title of contribution* [Slides/Jupyter notebook/Dataset]. In Roman Bleier & Martina Scholger (Eds.), *Digital Scholarly Editions and Machine Learning 2026*. https://github.com/DHGraz/dse-ml-2026
+
+More specific citation information is provided with the individual materials.
 
 
 ## Licence
