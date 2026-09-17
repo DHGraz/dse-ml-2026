@@ -61,3 +61,4 @@ Für einen direkten Export als PDF kann LaTeX erforderlich sein:
 ```
 
 Der direkte PDF-Export erzeugt ein Notebook-PDF und übernimmt das Reveal.js-Folienlayout nicht immer vollständig. Für das Präsentationslayout daher bevorzugt die Browser-Druckfunktion verwenden.
+ 
