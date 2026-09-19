@@ -1,1 +1,7 @@
 .ipynb_checkpoints
+pyproject.toml
+/.venv
+uv.lock
+.python-version
+*.pyc
+materials/2026-09-22_tuesday/07_wolff_bertopic_pipeline/models
