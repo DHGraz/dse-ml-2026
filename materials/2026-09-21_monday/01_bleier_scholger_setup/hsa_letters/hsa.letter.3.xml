@@ -1,0 +1,864 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader xml:lang="de">
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Gerhard Bähr an Hugo Schuchardt (14-414)</title>
+        <author ana="marcrelator:aut">
+          <persName ref="https://gams.uni-graz.at/o:hsa.persons#P.1068">
+            <forename>Gerhard</forename>
+            <surname>Bähr</surname>
+          </persName>
+        </author>
+        <editor ana="marcrelator:edt">
+          <persName>
+            <forename>Oroitz</forename>
+            <surname>Jauregi Nazabal</surname>
+          </persName>
+        </editor>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ana="marcrelator:pbl">
+          <orgName corresp="https://sprachwissenschaft.uni-graz.at" ref="http://d-nb.info/gnd/807328-4">Institut für Sprachwissenschaft,
+                  Karl-Franzens-Universität Graz</orgName>
+        </publisher>
+        <authority ana="marcrelator:his">
+          <orgName corresp="https://informationsmodellierung.uni-graz.at" ref="http://d-nb.info/gnd/1137284463">Zentrum für
+                  Informationsmodellierung - Austrian Centre for Digital Humanities,
+                  Karl-Franzens-Universität Graz</orgName>
+        </authority>
+        <distributor ana="marcrelator:rps">
+          <orgName ref="https://gams.uni-graz.at">GAMS - Geisteswissenschaftliches
+                  Asset Management System</orgName>
+        </distributor>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-nc/4.0">Creative Commons
+                  BY-NC 4.0</licence>
+        </availability>
+        <date ana="dcterms:issued" when="2022">2022</date>
+        <pubPlace ana="marcrelator:pup">Graz</pubPlace>
+        <idno corresp="http://schuchardt.uni-graz.at/id/letter/3" type="PID">o:hsa.letter.3</idno>
+        <idno source="http://schuchardt.uni-graz.at" type="altIdentifier">14-414</idno>
+      </publicationStmt>
+      <seriesStmt>
+        <title ref="https://schuchardt.uni-graz.at">Hugo Schuchardt Archiv</title>
+        <respStmt ana="marcrelator:pbl">
+          <resp>Herausgeber</resp>
+          <persName ref="http://d-nb.info/gnd/111679893">
+            <forename>Bernhard</forename>
+            <surname>Hurch</surname>
+            <orgName ref="http://d-nb.info/gnd/36157-4">Karl-Franzens-Universität Graz</orgName>
+          </persName>
+        </respStmt>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>Österreich</country>
+            <region>Steiermark</region>
+            <settlement>Graz</settlement>
+            <institution>Karl-Franzens-Universität Graz</institution>
+            <repository ref="https://ub.uni-graz.at/de/bibliotheken/sondersammlungen">Universitätsbibliothek Graz Abteilung für Sondersammlungen</repository>
+            <idno type="shelfmark">414</idno>
+          </msIdentifier>
+          <msContents>
+            <textLang mainLang="de"/>
+            <msItem>
+              <author ref="https://gams.uni-graz.at/o:hsa.persons#P.1068">
+                <forename>Gerhard</forename>
+                <surname>Bähr</surname>
+              </author>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <support>
+                  <material ref="http://vocab.getty.edu/aat/300014109">Papier</material>
+                  <objectType>Brief</objectType>
+                </support>
+                <extent>
+                  <measure quantity="21" unit="pages">21 Seiten</measure>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origPlace ana="marcrelator:prp" corresp="https://gams.uni-graz.at/o:hsa.places#PL.20" ref="http://sws.geonames.org/6557373">Göttingen</origPlace>
+              <origDate ana="dcterms:created" when="1924-04-22">1924-04-22</origDate>
+            </origin>
+            <provenance>
+                     Hugo Schuchardts wissenschaftlicher Nachlass (Bibliothek,
+                     Werkmanuskripte und wissenschaftliche Korrespondenz) kam nach seinem Tod 1927
+                     laut Verfügung in seinem Testament als Geschenk an die UB Graz.
+                  </provenance>
+          </history>
+        </msDesc>
+        <bibl type="print">
+          <author>
+            <persName>
+              <forename>Oroitz</forename>
+              <surname>Jauregi Nazabal</surname>
+            </persName>
+          </author>
+          <date when="2005">2005</date>
+          <title>Correspondencia de Gerhard Bähr con R. M. Azkue, H. Schuchardt y J. Urquijo
+               (1920-1944)</title>
+          <pubPlace>Donostia-San Sebastián</pubPlace>
+          <publisher>Gipuzkoako Foru Aldundia-Diputación Foral de Gipuzkoa</publisher>
+        </bibl>
+        <bibl type="online">
+          <author ana="marcrelator:aut">
+            <persName>
+              <forename>Oroitz</forename>
+              <surname>Jauregi Nazabal</surname>
+            </persName>
+          </author>
+          <date when="2007">2007</date>
+          <title>Die Korrespondenz zwischen Gerhard Bähr und Hugo Schuchardt</title>
+          <series>
+            <title>Hugo Schuchardt Archiv</title>
+            <editor>
+              <forename>Bernhard</forename>
+              <surname>Hurch</surname>
+            </editor>
+          </series>
+          <ref target="http://schuchardt.uni-graz.at/id/letters/1068"/>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>Die Datenmodellierung orientiert sich am <ref
+            target="https://www.deutschestextarchiv.de/doku/basisformat/">DTA-Basisformat</ref>,
+               <ref
+            target="https://www.ediarum.org/">ediarum</ref> und der
+               <ref target="https://github.com/TEI-Correspondence-SIG/correspDesc">CorrespDesc-SIG</ref>.</p>
+        <p>Das auf DTABf-Modellierungsschema wurde für die Zwecke des Projektes angepasst und befindet sich unter <ref target="https://gams.uni-graz.at/o:hsa.odd"/>
+        </p>
+      </editorialDecl>
+      <projectDesc>
+        <ab>
+          <ref target="info:fedora/context:hsa" type="context">Hugo Schuchardt Archiv</ref>
+        </ab>
+        <p>Das Hugo Schuchardt Archiv widmet sich der Aufarbeitung des Gesamtwerks und des Nachlasses von Hugo Schuchardt (1842-1927).
+               Die Onlinepräsentation stellt alle Schriften sowie eine umfangreiche Sekundärbibliografie zur Verfügung.
+               Die Bearbeitung des Nachlasses legt besonderes Augenmerk auf die Erschließung der Korrespondenz,
+               die zu großen Teilen bereits ediert vorliegt, und der Werkmanuskripte.</p>
+      </projectDesc>
+      <listPrefixDef>
+        <prefixDef ident="marcrelator" matchPattern="([a-z]+)" replacementPattern="http://id.loc.gov/vocabulary/relators/$1">
+          <p>Rollen-Taxonomie</p>
+        </prefixDef>
+        <prefixDef ident="dcterms" matchPattern="([a-z]+)" replacementPattern="http://purl.org/dc/terms/$1">
+          <p>Datumstaxonomie</p>
+        </prefixDef>
+        <prefixDef ident="skos" matchPattern="([a-z]+)" replacementPattern="http://www.w3.org/2004/02/skos/core#$1">
+          <p>Thesaurustaxonomie</p>
+        </prefixDef>
+      </listPrefixDef>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc ref="https://gams.uni-graz.at/o:hsa.letter.3">
+        <correspAction type="sent">
+          <persName corresp="https://gams.uni-graz.at/o:hsa.persons#P.1068" ref="https://viaf.org/viaf/54243396">
+            <forename>Gerhard</forename>
+            <surname>Bähr</surname>
+          </persName>
+          <placeName corresp="https://gams.uni-graz.at/o:hsa.places#PL.20" key="#GID.1" ref="http://sws.geonames.org/6557373">Göttingen</placeName>
+          <date when="1924-04-22">1924-04-22</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName corresp="https://gams.uni-graz.at/o:hsa.persons#P.109" ref="https://viaf.org/viaf/261931943">
+            <forename>Hugo</forename>
+            <surname>Schuchardt</surname>
+          </persName>
+        </correspAction>
+      </correspDesc>
+      <textClass>
+        <keywords scheme="cirilo:normalizedPlaceNames">
+          <list>
+            <item>
+              <placeName xml:id="GID.1">
+                <country>Germany</country>
+                <region>Göttingen</region>
+                <name ref="http://geonames.org/6557373" type="fcode:ADM4">Göttingen</name>
+                <location>
+                  <geo>9.95353,51.51297</geo>
+                </location>
+              </placeName>
+            </item>
+          </list>
+        </keywords>
+        <keywords ana="correspondence">
+          <list>
+            <item>
+              <ref target="info:fedora/context:hsa.letters.1068" type="context">
+                        Korrespondenz Gerhard Bähr - Hugo Schuchardt
+                     </ref>
+            </item>
+            <item>
+              <ref target="info:fedora/context:hsa.letters" type="context">Korrespondenz</ref>
+            </item>
+          </list>
+        </keywords>
+        <keywords scheme="https://gams.uni-graz.at/o:hsa.subjects">
+          <term ref="https://gams.uni-graz.at/o:hsa.subjects#S.4934" type="skos:Concept">
+            <term type="skos:prefLabel" xml:lang="de">Revue de Linguistique Romane</term>
+          </term>
+          <term ref="https://gams.uni-graz.at/o:hsa.subjects#S.736" type="skos:Concept">
+            <term type="skos:prefLabel" xml:lang="de">Verlage</term>
+          </term>
+          <term ref="https://gams.uni-graz.at/o:hsa.subjects#S.5599" type="skos:Concept">
+            <term type="skos:prefLabel" xml:lang="de">Euskaltzaindia - Real Academia de la Lengua Vasca - Académie de la Langue Basque</term>
+          </term>
+          <term ref="https://gams.uni-graz.at/o:hsa.subjects#S.3141" type="skos:Concept">
+            <term type="skos:prefLabel" xml:lang="de">Kongresse und Versammlungen</term>
+          </term>
+          <term ref="https://gams.uni-graz.at/o:hsa.subjects#S.4681" type="skos:Concept">
+            <term type="skos:prefLabel" xml:lang="de">Sociedad de Estudios Vascos</term>
+          </term>
+          <term ref="https://gams.uni-graz.at/o:hsa.subjects#S.4205" type="skos:Concept">
+            <term type="skos:prefLabel" xml:lang="de">Nationalismus</term>
+          </term>
+          <term ref="https://gams.uni-graz.at/o:hsa.subjects#S.5666" type="skos:Concept">
+            <term type="skos:prefLabel" xml:lang="de">Baskischsprachige Literatur</term>
+          </term>
+          <term ref="https://gams.uni-graz.at/o:hsa.subjects#S.3966" type="skos:Concept">
+            <term type="skos:prefLabel" xml:lang="de">Revue internationale des études basques</term>
+          </term>
+          <term ref="https://gams.uni-graz.at/o:hsa.subjects#S.3085" type="skos:Concept">
+            <term type="skos:prefLabel" xml:lang="de">Zeitschrift für romanische Philologie</term>
+          </term>
+          <term ref="https://gams.uni-graz.at/o:hsa.subjects#S.3144" type="skos:Concept">
+            <term type="skos:prefLabel" xml:lang="de">Literaturblatt für germanische und romanische Philologie</term>
+          </term>
+          <term ref="https://gams.uni-graz.at/o:hsa.subjects#S.3195" type="skos:Concept">
+            <term type="skos:prefLabel" xml:lang="de">Globus. Illustrierte Zeitschrift für Länder- und Völkerkunde</term>
+          </term>
+          <term ref="https://gams.uni-graz.at/o:hsa.subjects#S.3299" type="skos:Concept">
+            <term type="skos:prefLabel" xml:lang="de">Gedicht</term>
+          </term>
+          <term ref="https://gams.uni-graz.at/o:hsa.subjects#S.5799" type="skos:Concept">
+            <term type="skos:prefLabel" xml:lang="de">Euskara (Organ für die Interessen der "Baskischen Gesellschaft")</term>
+          </term>
+        </keywords>
+        <keywords scheme="https://gams.uni-graz.at/o:hsa.languages">
+          <term ref="https://gams.uni-graz.at/o:hsa.languages#L.837" type="skos:Concept">
+            <term type="skos:prefLabel" xml:lang="de">Baskisch</term>
+          </term>
+          <term ref="https://gams.uni-graz.at/o:hsa.languages#L.3168" type="skos:Concept">
+            <term type="skos:prefLabel" xml:lang="de">Toskanische Dialekte</term>
+          </term>
+          <term ref="https://gams.uni-graz.at/o:hsa.languages#L.860" type="skos:Concept">
+            <term type="skos:prefLabel" xml:lang="de">Italienisch</term>
+          </term>
+          <term ref="https://gams.uni-graz.at/o:hsa.languages#L.667" type="skos:Concept">
+            <term type="skos:prefLabel" xml:lang="de">Deutsch</term>
+          </term>
+        </keywords>
+        <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation">Wissenschaft</classCode>
+        <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation">Sprachwissenschaft</classCode>
+        <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation">Brief</classCode>
+      </textClass>
+      <langUsage>
+        <language ident="de">Deutsch</language>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <facsimile>
+    <surface>
+      <graphic mimeType="image/jpeg" url="info:fedora/o:hsa.letter.3" xml:id="IMG.1">
+        <desc>
+          <ref
+            target="https://ub.uni-graz.at/de/bibliotheken/sondersammlungen">Universitätsbibliothek Graz Abteilung für Sondersammlungen</ref>, <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Creative commons CC BY-NC https://creativecommons.org/licenses/by-nc/4.0/</ref>
+        </desc>
+      </graphic>
+    </surface>
+    <surface>
+      <graphic mimeType="image/jpeg" url="info:fedora/o:hsa.letter.3" xml:id="IMG.2">
+        <desc>
+          <ref
+            target="https://ub.uni-graz.at/de/bibliotheken/sondersammlungen">Universitätsbibliothek Graz Abteilung für Sondersammlungen</ref>, <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Creative commons CC BY-NC https://creativecommons.org/licenses/by-nc/4.0/</ref>
+        </desc>
+      </graphic>
+    </surface>
+    <surface>
+      <graphic mimeType="image/jpeg" url="info:fedora/o:hsa.letter.3" xml:id="IMG.3">
+        <desc>
+          <ref
+            target="https://ub.uni-graz.at/de/bibliotheken/sondersammlungen">Universitätsbibliothek Graz Abteilung für Sondersammlungen</ref>, <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Creative commons CC BY-NC https://creativecommons.org/licenses/by-nc/4.0/</ref>
+        </desc>
+      </graphic>
+    </surface>
+    <surface>
+      <graphic mimeType="image/jpeg" url="info:fedora/o:hsa.letter.3" xml:id="IMG.4">
+        <desc>
+          <ref
+            target="https://ub.uni-graz.at/de/bibliotheken/sondersammlungen">Universitätsbibliothek Graz Abteilung für Sondersammlungen</ref>, <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Creative commons CC BY-NC https://creativecommons.org/licenses/by-nc/4.0/</ref>
+        </desc>
+      </graphic>
+    </surface>
+    <surface>
+      <graphic mimeType="image/jpeg" url="info:fedora/o:hsa.letter.3" xml:id="IMG.5">
+        <desc>
+          <ref
+            target="https://ub.uni-graz.at/de/bibliotheken/sondersammlungen">Universitätsbibliothek Graz Abteilung für Sondersammlungen</ref>, <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Creative commons CC BY-NC https://creativecommons.org/licenses/by-nc/4.0/</ref>
+        </desc>
+      </graphic>
+    </surface>
+    <surface>
+      <graphic mimeType="image/jpeg" url="info:fedora/o:hsa.letter.3" xml:id="IMG.6">
+        <desc>
+          <ref
+            target="https://ub.uni-graz.at/de/bibliotheken/sondersammlungen">Universitätsbibliothek Graz Abteilung für Sondersammlungen</ref>, <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Creative commons CC BY-NC https://creativecommons.org/licenses/by-nc/4.0/</ref>
+        </desc>
+      </graphic>
+    </surface>
+    <surface>
+      <graphic mimeType="image/jpeg" url="info:fedora/o:hsa.letter.3" xml:id="IMG.7">
+        <desc>
+          <ref
+            target="https://ub.uni-graz.at/de/bibliotheken/sondersammlungen">Universitätsbibliothek Graz Abteilung für Sondersammlungen</ref>, <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Creative commons CC BY-NC https://creativecommons.org/licenses/by-nc/4.0/</ref>
+        </desc>
+      </graphic>
+    </surface>
+    <surface>
+      <graphic mimeType="image/jpeg" url="info:fedora/o:hsa.letter.3" xml:id="IMG.8">
+        <desc>
+          <ref
+            target="https://ub.uni-graz.at/de/bibliotheken/sondersammlungen">Universitätsbibliothek Graz Abteilung für Sondersammlungen</ref>, <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Creative commons CC BY-NC https://creativecommons.org/licenses/by-nc/4.0/</ref>
+        </desc>
+      </graphic>
+    </surface>
+    <surface>
+      <graphic mimeType="image/jpeg" url="info:fedora/o:hsa.letter.3" xml:id="IMG.9">
+        <desc>
+          <ref
+            target="https://ub.uni-graz.at/de/bibliotheken/sondersammlungen">Universitätsbibliothek Graz Abteilung für Sondersammlungen</ref>, <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Creative commons CC BY-NC https://creativecommons.org/licenses/by-nc/4.0/</ref>
+        </desc>
+      </graphic>
+    </surface>
+    <surface>
+      <graphic mimeType="image/jpeg" url="info:fedora/o:hsa.letter.3" xml:id="IMG.10">
+        <desc>
+          <ref
+            target="https://ub.uni-graz.at/de/bibliotheken/sondersammlungen">Universitätsbibliothek Graz Abteilung für Sondersammlungen</ref>, <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Creative commons CC BY-NC https://creativecommons.org/licenses/by-nc/4.0/</ref>
+        </desc>
+      </graphic>
+    </surface>
+    <surface>
+      <graphic mimeType="image/jpeg" url="info:fedora/o:hsa.letter.3" xml:id="IMG.11">
+        <desc>
+          <ref
+            target="https://ub.uni-graz.at/de/bibliotheken/sondersammlungen">Universitätsbibliothek Graz Abteilung für Sondersammlungen</ref>, <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Creative commons CC BY-NC https://creativecommons.org/licenses/by-nc/4.0/</ref>
+        </desc>
+      </graphic>
+    </surface>
+    <surface>
+      <graphic mimeType="image/jpeg" url="info:fedora/o:hsa.letter.3" xml:id="IMG.12">
+        <desc>
+          <ref
+            target="https://ub.uni-graz.at/de/bibliotheken/sondersammlungen">Universitätsbibliothek Graz Abteilung für Sondersammlungen</ref>, <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Creative commons CC BY-NC https://creativecommons.org/licenses/by-nc/4.0/</ref>
+        </desc>
+      </graphic>
+    </surface>
+    <surface>
+      <graphic mimeType="image/jpeg" url="info:fedora/o:hsa.letter.3" xml:id="IMG.13">
+        <desc>
+          <ref
+            target="https://ub.uni-graz.at/de/bibliotheken/sondersammlungen">Universitätsbibliothek Graz Abteilung für Sondersammlungen</ref>, <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Creative commons CC BY-NC https://creativecommons.org/licenses/by-nc/4.0/</ref>
+        </desc>
+      </graphic>
+    </surface>
+    <surface>
+      <graphic mimeType="image/jpeg" url="info:fedora/o:hsa.letter.3" xml:id="IMG.14">
+        <desc>
+          <ref
+            target="https://ub.uni-graz.at/de/bibliotheken/sondersammlungen">Universitätsbibliothek Graz Abteilung für Sondersammlungen</ref>, <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Creative commons CC BY-NC https://creativecommons.org/licenses/by-nc/4.0/</ref>
+        </desc>
+      </graphic>
+    </surface>
+    <surface>
+      <graphic mimeType="image/jpeg" url="info:fedora/o:hsa.letter.3" xml:id="IMG.15">
+        <desc>
+          <ref
+            target="https://ub.uni-graz.at/de/bibliotheken/sondersammlungen">Universitätsbibliothek Graz Abteilung für Sondersammlungen</ref>, <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Creative commons CC BY-NC https://creativecommons.org/licenses/by-nc/4.0/</ref>
+        </desc>
+      </graphic>
+    </surface>
+    <surface>
+      <graphic mimeType="image/jpeg" url="info:fedora/o:hsa.letter.3" xml:id="IMG.16">
+        <desc>
+          <ref
+            target="https://ub.uni-graz.at/de/bibliotheken/sondersammlungen">Universitätsbibliothek Graz Abteilung für Sondersammlungen</ref>, <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Creative commons CC BY-NC https://creativecommons.org/licenses/by-nc/4.0/</ref>
+        </desc>
+      </graphic>
+    </surface>
+    <surface>
+      <graphic mimeType="image/jpeg" url="info:fedora/o:hsa.letter.3" xml:id="IMG.17">
+        <desc>
+          <ref
+            target="https://ub.uni-graz.at/de/bibliotheken/sondersammlungen">Universitätsbibliothek Graz Abteilung für Sondersammlungen</ref>, <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Creative commons CC BY-NC https://creativecommons.org/licenses/by-nc/4.0/</ref>
+        </desc>
+      </graphic>
+    </surface>
+    <surface>
+      <graphic mimeType="image/jpeg" url="info:fedora/o:hsa.letter.3" xml:id="IMG.18">
+        <desc>
+          <ref
+            target="https://ub.uni-graz.at/de/bibliotheken/sondersammlungen">Universitätsbibliothek Graz Abteilung für Sondersammlungen</ref>, <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Creative commons CC BY-NC https://creativecommons.org/licenses/by-nc/4.0/</ref>
+        </desc>
+      </graphic>
+    </surface>
+    <surface>
+      <graphic mimeType="image/jpeg" url="info:fedora/o:hsa.letter.3" xml:id="IMG.19">
+        <desc>
+          <ref
+            target="https://ub.uni-graz.at/de/bibliotheken/sondersammlungen">Universitätsbibliothek Graz Abteilung für Sondersammlungen</ref>, <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Creative commons CC BY-NC https://creativecommons.org/licenses/by-nc/4.0/</ref>
+        </desc>
+      </graphic>
+    </surface>
+    <surface>
+      <graphic mimeType="image/jpeg" url="info:fedora/o:hsa.letter.3" xml:id="IMG.20">
+        <desc>
+          <ref
+            target="https://ub.uni-graz.at/de/bibliotheken/sondersammlungen">Universitätsbibliothek Graz Abteilung für Sondersammlungen</ref>, <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Creative commons CC BY-NC https://creativecommons.org/licenses/by-nc/4.0/</ref>
+        </desc>
+      </graphic>
+    </surface>
+    <surface>
+      <graphic mimeType="image/jpeg" url="info:fedora/o:hsa.letter.3" xml:id="IMG.21">
+        <desc>
+          <ref
+            target="https://ub.uni-graz.at/de/bibliotheken/sondersammlungen">Universitätsbibliothek Graz Abteilung für Sondersammlungen</ref>, <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Creative commons CC BY-NC https://creativecommons.org/licenses/by-nc/4.0/</ref>
+        </desc>
+      </graphic>
+    </surface>
+  </facsimile>
+  <text>
+    <body>
+      <div subtype="original" type="letter" xml:id="L.3" xml:lang="de">
+        <pb facs="#IMG.1" n="1"/>
+        <dateline>Göttingen, d. 22. IV. 1924 Obere Masch 17</dateline>
+        <opener> Sehr geehrter Herr Hofrat! </opener>
+
+        <p> Bereits 5 Tage nach Abgang meines letzten Briefes an Sie erhielt ich Ihre Antwort und bald darauf Ihre Druckschriften, für die ich Ihnen vielmals danke. Ich wollte Ihnen nun erst antworten, nachdem ich diese durchgearbeitet hatte, um Ihnen gleich meine Zweifel und Bemerkungen dazu mitzuteilen, doch da sie eine mühelose Fundgrube für meine Etymologien = Zusammenstellungen bilden und das Semester bald beginnt, wollte ich meine letzten Ferientage der Erledigung schwierigerer Aufgaben widmen, besonders dem Durchsuchen der letzten Bände der <ref target="https://gams.uni-graz.at/o:hsa.subjects#S.4934">
+            <hi rend="unknown" rendition="#none">Revue de ling.</hi>
+          </ref> der Werke Luchaires u. ä. nach brauchbarem Stoff. Nun erhalte ich gerade zum Feste als schönstes und willkommenstes Ostergeschenk Ihren zweiten Brief. Haben Sie für alles recht herzlichen Dank! Ich werde nun versuchen, Ihnen möglichst chronologisch, auf alles Erwünschte Antwort zu erteilen.</p>
+        <p>Was die deutsche <ref
+            target="https://gams.uni-graz.at/o:hsa.subjects#S.736">
+Verlag</ref>swelt angeht, so muss ich sagen, dass ich selbst nicht über die Orga<pb
+            facs="#IMG.2" n="2"/>nisation derselben genau unterrichtet bin, ebensowenig in <placeName
+            ref="https://gams.uni-graz.at/o:hsa.places#PL.5989">
+Spanien</placeName> über die dortigen Verleger, wenn es solche überhaupt gibt. Ich habe früher wiederholt gehört, —ich glaube in Vorträgen über Spanien—, dass es dort überhaupt keine Verleger in unserem Sinne gibt, obwohl ich selbst die Namen einiger sogen. “<foreign
+            xml:lang="es">casas editoriales</foreign>” kenne. Nach allem scheint es mir jedoch, als ob diese entweder ganz modern oder anders aufgebaut sind als unsere Verlagsgesellschaften und damit mag es zusammenhängen, dass <persName
+            ref="https://gams.uni-graz.at/o:hsa.persons#P.1062">Azkue</persName> immer nur vom Drucker gesprochen hat. Von einem Niedergang der Einkünfte kann man wohl er[st] in diesem Jahre reden, da die “<foreign
+            xml:lang="es">Diputación</foreign>” von Vizcaya ihre jährliche Unterstützung an die <ref
+            target="https://gams.uni-graz.at/o:hsa.subjects#S.5599">Akademie</ref> von 15000 auf 5000 Peseten herabgesetzt hat. Ich glaube nicht, dass der <ref
+            target="https://gams.uni-graz.at/o:hsa.subjects#S.3141">Kongress</ref> von Gernika der Akademie viel gekostet hat, da ja die <ref target="https://gams.uni-graz.at/o:hsa.subjects#S.4681">
+            <foreign xml:lang="es">
+Sociedad de Estudios Vascos</foreign>
+          </ref>, <foreign
+            xml:lang="eu">Eusko Ikaskuntza</foreign>, der eigentliche Veranstalter war. Diese hat allerdings grosse Opfer bringen müssen, da sie in grossherziger Weise so viele (für spanische Begriffe) in- und ausländische Gelehrte kostenfrei eingeladen hatte, und leider ist gerade von deutscher Seite diese Gastfreundschaft wohl etwas missbraucht worden, dadurch, dass ein Professor der eingeladen war, mit seiner Frau und beiden Töchtern (!)<pb
+            facs="#IMG.2"
+            n="3"/> dieser Einladung Folge leistete. Ich weiss nicht, ob diese Tatsache in Spanien bekannte geworden ist; jedenfalls hat man in <placeName>
+Deutschland</placeName>, oder besser gesagt hat ein Kollege diesem Herrn den Missbrauch der spanischen Gastfreundschaft sehr übel genommen. Natürlich wäre die Eusko-Ikaskuntza durch solche und ähnliche Fälle nicht in die schlechte Lage gekommen, in der sie sich h[eu]te befindet. Schuld daran ist nur der vor kurzem erfolgte Beschluss der “<foreign
+            xml:lang="es">
+Diputación</foreign>” von Vizcaya, das noch kürzlich eine H[och]burg des <ref
+            target="https://gams.uni-graz.at/o:hsa.subjects#S.4205">Nationalismus</ref> bildete, der Eusko-Ik. überhaupt keine Unterstützung mehr zu bewilligen. Hierdurch ist die <ref
+            target="https://gams.uni-graz.at/o:hsa.subjects#S.5599">Euskaltz.</ref> nur indirekt getroffen, insofern als sie auch von der E.-I. eine allerdings ziemlich geringe jährliche Unterstützung erhielt. Dass die Akademie noch unterstützt wird unter diesen Umständen, scheint sie nur den guten persönlichen Beziehungen Azkues zu Urien, dem Präsidenten der <foreign
+            xml:lang="es">Diputación</foreign>, zu verdanken. Ich hoffe, dass meine Mutmassungen nicht schon durch einen entsprechenden Beschluss der bizkayischen Landstände über den Haufen geworfen sind. Was eigentlich vorgeht, ist mir ein Rätsel. Die Zeitungen berichten nur zurückhaltend und stehen unter Vorzensur. Nicht einmal mehr die Berichte über die Sitzungen der Akademie erscheinen seit einigen Monaten in den Zeitungen, wahrscheinlich nicht<pb
+            facs="#IMG.3"
+            n="4"/> wegen irgend eines Verbotes —dazu ist Arzadun, Guvernör von Guipuzcoa, selbst Baske und sogar “<foreign
+            xml:lang="es">poeta</foreign>”, zu vernünftig—, sondern wohl, weil man die Euskaltz. für viel zu unbedeutend hält, als dass man ihre eingesandte[n] Berichte abdruckte. Überhaupt wissen die meisten Basken nichts von der E., selbst viele “Gebildete” kennen ihren Namen nicht einmal. Nun scheint in ganz Spanien ein Kesseltreiben begonnen zu haben gegen Nationalismus, Separatismus, gegen alles was sich nicht nach dem Madrider Zentralismus richten will und insbesondere gegen die <ref
+            target="https://gams.uni-graz.at/o:hsa.languages#L.837">baskische Sprache</ref>. I[n] <placeName>
+Bilbao</placeName> wurden die Buchhandlungen nach <ref
+            target="https://gams.uni-graz.at/o:hsa.subjects#S.5666">
+baskischen Büchern</ref> abgesucht, das Erscheinen jeglicher bask. Zeitungen ist verboten, nur in San Sebastian erscheint —dank Arzadun— allwöchen[t]lich das bescheidene Blättchen 
+
+<hi
+            rend="unknown" rendition="#none">Argia.</hi>
+ Nun hat kürzlich <persName>
+
+Primo de Rivera</persName> —dem Spanien im Übrigen sicherlich viel verdankt— erklärt, er wolle die “regionalen” Sprachen nicht verbieten, es sollte aber verhindert werden, dass sie das Spanische als Amts- und Staatsbürgersprache verdränge. Dieser Ausspruch ist recht naiv. Er kann natürlich einigen Hunderttausenden oder Millionen Untertanen nicht ihre Sprache von heute auf morgen verbieten.</p>
+        <p>
+          <pb facs="#IMG.4"
+            n="5"/>Die Hauptschuld an diesen Zuständen tragen die Basken selbst oder vielmehr ein Hauptzug in ihrem sonst so sympathischen Charakter: ihre Feigheit. Ich habe viele Basken, hauptsächlich jüngere, die fast alle Nationalisten sind oder waren, kennen gelernt und mit ihnen über ihre Sprache, Politik usw. diskutiert. Was wollten sie nicht alles tun, wenn ihre Sprache, ihre Rechte ihre Freiheit angetastet würden! Und jetzt regt sich nicht einer von diesen “rassebewussten” Jünglingen. Alle sind ins Mauseloch gekrochen. Übrigens gehörten diese nicht zu den Stützen der Akademie, sondern, besonders im Anfang, zu ihren schärfsten Gegnern, unte[r] denen sich der Schriftleiter der baskischen Abteilung des <foreign xml:lang="eu">
+            <hi rend="unknown" rendition="#none">Euzkadi Bustintza’tar Ebarista</hi>
+          </foreign> mit Decknamen <foreign xml:lang="eu">
+            <hi rend="unknown" rendition="#none">
+Kirikiño</hi>
+
+          </foreign> hervortat, der das “wissenschaftliche” Erbe Arana-Goiris angetreten hatte und sich verpflichtet fühlte überall und in Allem Azkue und der Akademie Opposition zu leisten. In den letzten Monaten scheint das anders geworden zu sein, die herannahende Gefahr hat zum Zusammenschluss gemahnt, und schliesslich hat wohl auch die Vernunft über die vorgefassten Meinungen die Oberhand davon getragen, jedenfalls<pb
+            facs="#IMG.5" n="6"/> hat <foreign
+            xml:lang="eu">
+Kirikiño</foreign> in erfreulicher, aber später Einsicht geäussert: “<foreign xml:lang="es">La Academia es la suprema autoridad</foreign>”. Wie viel weiter wären die Arbeiten der Akademie schon gediehen, wenn diese Einsicht bereits bei ihrer Gründung gereift wäre. Von dieser Seite brauch also die Akademie wohl keine Anfeindungen mehr zu befürchten und kann vielleicht auf die Mitarbeit vieler junger Leute rechnen z. B. beim Sammeln der Orts- u. Familiennamen, der seltenen Worte u. von Mundartenproben, aber seit <persName>
+
+Eleizaldes</persName> Hinscheiden scheint in dieser Hinsicht nichts mehr unternommen zu sein.</p>
+
+        <p> Über Azkue habe ich ziemlich die gleiche Meinung wie Sie. Ich kenne ihn allerdings noch nicht näher, da ich bisher mit ihm nur zwei Mal eine Woche lang und vielleicht 5-6 Mal ein bis zwei Tage zusammen war. Dass er aber kein Mann der strengen Wissenschaft ist, obwohl er es hätte werden können, ersieht man ja schon aus seinen Werken. Aber er behauptet auch nicht, es zu sein, während z. B. Arana-Goiri —von anderen ganz zu schweigen—, sich dafür hielt und, was das Schlimmste ist, heute noch von vielen<pb
+            facs="#IMG.5" n="7"/> dafür gehalten wird. Dass ein Mann der das <hi rend="unknown"
+            rendition="#none">Dicc. Vasco-esp-franc.</hi> sozusagen ohne Vorbildung zusammengestellt hat, sich nicht zu einem Wissenschaftler ersten Ranges entwickelt hat, erscheint [mi]r beinahe unfassbar. Aber er hat kein grosses Interesse daran und gibt es auch selbst zu. Als ich mich einmal mit ihm über Lautgesetze unterhalten wollte, zeigte er kein Interesse dafür. Von Natur aus ist er ja auch eigentlich (Musiker und) Literat und hätte nach seiner eigenen Aussage, gleich seinem Vater, sein ganzes Leben lang nur Verse gemacht, wenn ihn nicht Bonaparte, allerdings mittelbar durch seine Werke, zur wissenschaftlichen Betätigung angeregt hätte. Ich finde sonst eben nicht, dass er sich leicht anregen lässt, und bedaure sehr, dass er sich nicht weiterbildet durch Lesen wissenschaftlicher Bücher und Zeitschriften. Ich habe z. B. seine <foreign xml:lang="es">
+            <hi rend="unknown" rendition="#none">
+Morfologia</hi>
+
+          </foreign> nicht genau verfolgt, da ich sie als Ganzes (nach Abschluss) geniessen wollte, aber auch mir ist es aufgefallen, dass er kein genügendes Quellenstudium getrieben hat. Ich hielte es trotzdem für wünschenswert, wenn Sie Ihre Bemerkungen dazu verfassten, falls Sie Ihren leidenden Augen<pb
+            facs="#IMG.6"
+            n="8"/> diese Anstrengung überhaupt zumuten dürfen, selbst auf die Gefahr hin, manches zu[m] zweiten Male sagen zu müssen. In Spanien sind nämlich bloss Ihre Artikel in der <ref target="https://gams.uni-graz.at/o:hsa.subjects#S.3966">
+            <hi rend="unknown" rendition="#none">Rev. Intern. E. B.</hi>
+          </ref> bekannt bezw. erreichbar, alles andere, was Sie früher veröffentlicht haben, z. B. in der <hi
+            rend="unknown" rendition="#none">
+            <ref target="https://gams.uni-graz.at/o:hsa.subjects#S.3085">Z. R. Ph.</ref>, im <ref
+              target="https://gams.uni-graz.at/o:hsa.subjects#S.3144">Litteraturblatt</ref>, Museum, <ref target="https://gams.uni-graz.at/o:hsa.subjects#S.3195">
+Globus</ref>
+          </hi> usw. ist dort unbekannt und auch in der Bibliothek der <ref
+            target="https://gams.uni-graz.at/o:hsa.subjects#S.5599">Euskaltzaindia</ref> nicht erreichbar. Ob Urkijo etwas davon besitzt, wie ich ver[mu]te, ist mir nicht bekannt. Urkijo ist der Einzige in der ganzen Akademie, der wissenschaftlich auf der Höhe ist und sich vor grösseren wissenschaftlichen Autoritäten beugt. Die anderen Akademiker sind hierzu umso weniger geneigt, je mehr Anlass dazu vorhanden ist, d. h. je mehr ihnen die Kenntniss solcher Dinge abgeht. Eleizalde war im Begriffe seine alten Anschauungen abzustreifen, auch Altube scheint mir viel zu versprechen. Sonst scheinen aber nur einige von den Jüngeren: Iraizoz, Apraiz, u. Ormaetxea Hoffnungen zu erwecken. Der Haupt<pb
+            facs="#IMG.7"
+            n="9"/>vertreter der anderen extremen Richtung, die übrigens politisch nationalistisch eingestellt ist, ist Eguzkitza. Er ist Pfarrer in Lekeitio und mag eine gute (seminaristische) Bildung genossen haben und ist ganz tüchtig im Reden und Disputieren, aber nur auf theologische Methoden eingefu[ch]st, die er auch auf die akademischen Diskussionen anwendet. Er ist das Sprachrohr der Aranisten, er trat mit Herz und Seele ein für das lächerliche überhaupt nicht erwägbare <foreign xml:lang="eu">
+            <hi rend="unknown" rendition="#none">
+euzkera</hi>
+
+          </foreign> und ähnliche Ungeheuerlichkeiten. Dabei ist er, wenn ich nicht irre, nicht einmal literarisch hervorgetreten, hält aber sicherlich seine Mundart (die bizkayische) für die ursprünglichste, logischste, reinste und für die beste Grundlage der zukünftigen <hi
+            rend="unknown" rendition="#none">
+            <foreign
+            xml:lang="el">koινή</foreign>.</hi> Dass schon allein aus geographischen Gründen —ohne von der Reinheit, Klarheit u. Verständlichkeit der Dialekte zu sprechen— dem guipuzcoischen der Vorrang gehört, ist so selbstverständlich, dass sogar schon vor mehr als einem halben Jahrhundert Bonaparte es mit dem <ref
+            target="https://gams.uni-graz.at/o:hsa.languages#L.3168">Toskanischen</ref> verglich. Azkue war um bemüht, eine Gemeinsprache zu schaffen, <foreign xml:lang="es">
+            <hi rend="unknown" rendition="#none">con noble abandono de<pb facs="#IMG.8" n="10"/> su propio dialecto,</hi>
+
+          </foreign> wie ihm die Guipuzcoaner zum Danke schmeichelten; unter Benutzung des Zentraldialektes, wobei er den Wortschatz natürlich stark erweiterte, bereicherte, die Schreibung vereinheitlichte, viele Wendungen aus den östlichen Mundarten (von denen die Guipuzcoer wenig, die Bizcayer garnichts wissen) einführte und zahlreiche z. T. künstliche aber dringend nötige Scheideformen schuf z. B. <hi
+            rend="unknown" rendition="#none">
+            <foreign xml:lang="eu">
+ontzi</foreign> Gefäss —<foreign xml:lang="eu">untzi</foreign>
+          </hi> Schiff <foreign xml:lang="eu">
+            <hi rend="unknown" rendition="#none">ogen</hi>
+          </foreign> Schuld, —<hi rend="unknown" rendition="#none">oben</hi> Sünde, <foreign xml:lang="eu">
+            <hi rend="unknown" rendition="#none">biurtu</hi>
+          </foreign> wenden, —<foreign xml:lang="eu">
+            <hi rend="unknown" rendition="#none">bigurtu</hi>
+          </foreign> übersetzen, <foreign xml:lang="eu">
+            <hi rend="unknown" rendition="#none">
+galdetu</hi>
+          </foreign> erkundigen — <foreign xml:lang="eu">
+            <hi rend="unknown" rendition="#none">itandu</hi>
+
+          </foreign> fragen u. viele andere. Er ist natürlich bestrebt, die Sprache rein zu halten, aber in vernünftigen Grenzen und weit entfernt von de[m] lächerlichen einseitigen, durch keine Sachkenntnis “getrübten” Purismus der Aranisten, die glaubten <foreign xml:lang="eu">
+            <hi rend="unknown" rendition="#none">
+eliza</hi>
+          </foreign> durch <hi rend="unknown" rendition="#none">txadon</hi>, <foreign
+            xml:lang="eu">apaiz</foreign> durch <hi rend="unknown" rendition="#none">
+jaupari, <foreign xml:lang="eu">olio</foreign>
+          </hi> durch <hi rend="unknown" rendition="#none">gaimel</hi> ersetzen zu können (so auch <hi rend="unknown"
+            rendition="#none">donoki</hi> Himmel, obwohl <hi rend="unknown"
+            rendition="#none">
+done</hi> heilig verpönt war; erlaubt war wieder <hi rend="unknown"
+            rendition="#none">*deun</hi> *heilig aus <hi rend="unknown"
+            rendition="#none">
+donga</hi>, freudig gebildet und in dieser Weise überall, so dass man den Ein<pb
+            facs="#IMG.8"
+            n="11"/>druck haben musste als sei nur die Willkür und die Unkenntnis die einzige Richtschnur bei dieser “Erneuerung” der Sprache). Die Folge ist natürlich, dass diese neuere meist bizcayische “Literatur”, wenn sie diesen Namen überhaupt verdient, ungeniessbar ist, nicht nur für den Ungebildeten, sondern auch für den der sich mit der Sprache etwas beschäftigt hat. Dagen zählt Azkues <foreign xml:lang="eu">
+            <hi rend="unknown" rendition="#none">Ardi galdua</hi>
+          </foreign> und <foreign xml:lang="es">
+            <hi rend="unknown" rendition="#none">Prontuario de la lengua vasca</hi>
+
+          </foreign> dem Stil und der Form nach zu dem Besten was überhaupt je auf baskisch geschrieben ist, ja ich möchte sogar behaupten, es ist zusammen mit <foreign xml:lang="eu">
+            <hi rend="unknown" rendition="#none">Agirres Garoa</hi>
+
+          </foreign> das Edelste was die bask. Literatur besitzt. Aber was taten nun seine Gegner, schon seit 20 Jahren, seitdem die Basken etwas aus ihrem Schlummer erwacht schienen? Sie schwiegen alles tot, was von ihm stammte, seine Neologismen, seine Novellen u. <ref
+            target="https://gams.uni-graz.at/o:hsa.subjects#S.3299">Gedichte</ref> seine Vorschläge zur Bereicherung der Sprache und es gelang ihnen, da sie die Jugend beherrschten durch ihre Zeitungen und durch die Politik. Azkue hat dieses immer oder meist mit Gleichmut hingenommen, nur jetzt in der Akade<pb
+            facs="#IMG.9"
+            n="12"/> kommt es oft zu Zusammenstössen zwischen ihm und dieser Richtung. Er kann wohl von sich behaupten, dass er das Ansehen der Akademie gesteigert hat, wenn er alle lächerlichen Verunstaltungen und Verunbildungen, wie <foreign xml:lang="eu">
+            <hi rend="unknown" rendition="#none">euzkera, gozari</hi>
+          </foreign> (von <foreign xml:lang="eu">
+            <hi rend="unknown" rendition="#none">*goiz</hi>
+          </foreign>???), <foreign xml:lang="eu">
+            <hi rend="unknown" rendition="#none">gazte</hi>
+          </foreign> (von <foreign xml:lang="eu">
+            <hi rend="unknown" rendition="#none">
+azi</hi>
+          </foreign>!!) <foreign xml:lang="eu">
+            <hi rend="unknown" rendition="#none">
+aizkide</hi>
+          </foreign> (von <foreign xml:lang="eu">
+            <hi rend="unknown" rendition="#none">aitz</hi>
+
+          </foreign> Fels Waffe???) schonungslos zurückgewiesen hat. Das Unglaublichste ist in dieser Hinsicht begangen worden, auch im Zeitwort. “Doch das Höchst und Beste” leistete sich ein augenblicklich in Südamerika ansässiger Geistlicher, natürlich auch Bizcayer, indem er leider seine “Überzeugung, dass auch die mit Konsonant beginnenden Zeitwörter synthetisch beugbar seien” den <foreign
+            xml:lang="es">vascófilos</foreign> nicht vorenthalten wollte und Anweisungen gibt über die “<foreign
+            xml:lang="es">conjugación reformada</foreign>”: ich werde es senden <hi rend="unknown"
+            rendition="#none">dabidalket </hi> oder so ähnlich. <hi rend="unknown" rendition="#none">
+            <foreign
+            xml:lang="la">Difficile est satiram non scribere</foreign>.</hi> Doch ich merke, dass ich ganz abgeschweift bin und will nur noch einmal hervorheben, dass Azkue, obwohl er nicht zu den strengen Wissenschaftlern zählen kann, doch das Ver<pb
+            facs="#IMG.10"
+            n="13"/>dienst besitzt, die Sprache vor willkürlichen Verunstaltungen bewahrt und so wie sie ist von verschiedenen Seiten dargestellt zu haben. In der Frage der Neubildungen ist er sehr skeptisch und schiebt die blosse Erörterung immer wieder hinaus. Ja meinte er, als ich im verflossenen Sommer erklärte, die Frage sei schon lange akut, sie solle erst angeschnitten werden, sobald ich Mitarbeiter wäre, also in 2 Jahren vielleicht. Er vermeidet das Eingehen darauf auch wohl deshalb, weil darin der allermeiste Zündstoff aufgehäuft liegt und gerade in diesem Punkte die Meinungen an weitesten voneinander abweichen. Denn Urkijo, Lacombe sind noch viel liberaler als Azkue. Eines will ich noch erwähnen, das Eguzkitzas Geistesverfassung gut charakterisiert. Als Urkijo und ich von einem baskischen Wort —ich weiss nicht, um welches es sich handelte, es tut ja auch nichts zur Sache— erklärten, dass es romanischen Ursprungs sei, verlangte Eguskitza, wir sollten ihm das an Hand der Bücher beweisen, d. h. nachweisen,<pb
+            facs="#IMG.11" n="14"/> wann und wie es in’s <ref target="https://gams.uni-graz.at/o:hsa.languages#L.837">Baskische</ref> gedrungen sei; wenn sich diese Entlehnung in der Literatur nicht zeigen liesse, sei sie unbewiesen. Über Lacombes und Urkijos Richtung sind Sie ja viel besser orientiert als ich, der ich diese Herren nur ziemlich flüchtig kenne.</p>
+
+        <p> Azkue klagte darüber dass der Arbeitseifer der Akademiker nachgelassen habe, und ich selbst muss sagen, dass bei den Erörterungen, die ich mit erlebt habe, nicht viel herausgekommen ist und ich auch nicht den Eindruck hatte, als ob viel Arbeit geleistet würde. Und wie dringend nötig erscheint der Sprachatlas, dessen Fehlen Sie ja am meisten schmerzt. Ich glaube, dass bei Azkue nur die Kostenfrage eine Rolle spielt, nicht etwa die Eitelkeit (er ist auf sein Wörterbuch —mit Recht— sehr stolz); er erklärte uns dass ein einziges Exemplar das katalanischen Sprachatlasses 700 peseten koste. Aber die Hauptsache ist ja, dass das immer spärlicher werdende Material gesammelt wird, ehe es zu spät ist, die Veröffentlichung [ist] doch <hi
+            rend="unknown" rendition="#none">
+            <foreign xml:lang="es">cura posterior</foreign>.</hi>
+          <pb facs="#IMG.11"
+            n="15"/> Ich glaube nicht, dass er noch lange widerstreben wird. Es erhebt sich dann gleich die wichtige Frage, wer damit beauftragt wird. Soll der Atlas gründlich und ausführlich werden, so müssen, meiner Ansicht nach, recht viel Personen damit beauftragt werden, so dass jede ein nur beschränktes Gebiet bearbeitete, andererseits liegt darin eine gewisse Gefahr, infolge der individuellen Verschiedenheit der Aufnahme. Auch müsste eine phonetische Rechtschreibung zu Grunde gelegt werden. Die offizielle Ortographie entspricht ja dieser Forderung, aber es gibt mehr Laute als sie Zeichen besitzt und vielfache Abstufungen, z. B. im <hi
+            rend="unknown"
+            rendition="#none">s, z.</hi> Ich habe so ziemliche alle Übergänge gehört vom span. z (ausschliesslich) bis zum deutschen breiten <hi
+            rend="unknown" rendition="#none">sch</hi>, etwa folgendermassen. </p>
+        <p>Spanisches <hi rend="unknown" rendition="#none">z</hi>ihm sehr nahe das <hi rend="unknown"
+            rendition="#none">z</hi> in navarrascher Aussprache, das ich bei mehreren<pb facs="#IMG.12"
+            n="16"/> Rednern beobachtete. <hi rend="unknown"
+            rendition="#none">z</hi> in der gewöhnlichen guipuzcoaschen Aussprache, noch schärfer als deutsches <hi
+            rend="unknown"
+            rendition="#none">ss </hi>Der Laut, unter dem in fast ganz Bizkaya und in Teilen von Guipúzcoa [,] häufig auch nur bei der jüngeren Generation [,] bask <hi
+            rend="unknown" rendition="#none">z</hi> und <hi rend="unknown"
+            rendition="#none">s</hi> zusammengefallen sind. Die Basken behaupten, dass in den betreffenden Gegenden <hi
+            rend="unknown" rendition="#none">
+s</hi> gesprochen würde. Ob damit span. <hi rend="unknown"
+            rendition="#none">
+s</hi> (nach deutsch <hi rend="unknown" rendition="#none">ss</hi> neigend) oder bask. <hi
+            rend="unknown" rendition="#none">s</hi> (nach <hi rend="unknown"
+            rendition="#none">š</hi> hinüberneigend) gemeint ist, sagen die Meisten nicht. Mir schien der entstandene Kompromiss-laut eher dem span. s zu entsprechen. <hi
+            rend="unknown" rendition="#none">s</hi> in guipuzcoascher Aussprache, steht zwischen deutschem <hi
+            rend="unknown" rendition="#none">ss</hi> und <hi rend="unknown"
+            rendition="#none">sch</hi>, aber ersterem näher, während <hi rend="unknown"
+            rendition="#none">s</hi> in labortanischer Aussprache dem <hi rend="unknown"
+            rendition="#none">sch, š</hi> näher steht. <hi rend="unknown"
+            rendition="#none">x</hi> ziemlich so wie deutsch <hi rend="unknown"
+            rendition="#none">
+sch</hi>. Diese sechs verschiedenen Laute (mit Ausschluss des spanischen z) werden nun mit nur drei Buchstaben <hi
+            rend="unknown" rendition="#none">s, z, x</hi> bezeichnet und das Vorhandensein des stimm<pb facs="#IMG.13"
+            n="17"/>haften <hi rend="unknown"
+            rendition="#none">s</hi> von den Meisten garnicht wahrgenommen, bis auf Azkue, der es im sulischen findet und mit <hi
+            rend="unknown"
+            rendition="#none">
+ds</hi> bezeichnet. Aber selbst in Guipúzcoa ist es garnicht selten vor stimmhaften Konsonanten. Man spricht z. B. in langsamer Aussprache <foreign xml:lang="eu">
+            <hi rend="unknown" rendition="#none">ezgera, Aizgorri</hi>
+          </foreign> mit etwas stimmhaften <hi rend="unknown"
+            rendition="#none">z</hi> und kürzlich stellte ich als guipuzcoasche Entsprechung von lab. <foreign xml:lang="eu">
+            <hi rend="unknown" rendition="#none">ortzi</hi>
+          </foreign> “Donner”, “Wolke”, statt des erwarteten <foreign xml:lang="eu">
+            <hi rend="unknown" rendition="#none">
+*ozti</hi>
+          </foreign>, das nur in Zusammensetzungen bekannt ist, <foreign xml:lang="eu">
+            <hi rend="unknown" rendition="#none">ozdi</hi>
+          </foreign> mit stimmhaften z fest (in Urrestiĺa bei Azpeitia).</p>
+        <p>Auch ist die Schreibung des in manchen (durchaus nicht allen) Gegenden Guipúzcoas zwischen <hi rend="unknown"
+            rendition="#none">i</hi> und <hi rend="unknown"
+            rendition="#none">a</hi> eingeschobenen Gleitlautes als y sehr ungenau. Dieser Laut würde im baskischen Alphabet eher durch <hi
+            rend="unknown"
+            rendition="#none">dd</hi> ausgedrückt werden. Am genauesten ist die Beschreibung Bonapartes, der ihn als Mittelding zwischen <hi
+            rend="unknown" rendition="#none">di</hi> in <hi rend="unknown" rendition="#none">diable</hi> u. <hi
+            rend="unknown" rendition="#none">gi</hi> in <hi rend="unknown"
+            rendition="#none">ghianda</hi> bezeichnet. Er ist natürlich auch nicht ganz einheitlich und zeigt Übergänge besonders nach <hi
+            rend="unknown" rendition="#none">dx</hi> (nach Azkue = <ref target="https://gams.uni-graz.at/o:hsa.languages#L.860">ital.</ref>
+          <hi rend="unknown" rendition="#none">ge</hi>, phon. <hi rend="unknown"
+            rendition="#none">dž</hi>). So spricht man an der Küste westwärts<pb facs="#IMG.14"
+            n="18"/> Donostia mehr oder weniger <hi rend="unknown"
+            rendition="#none">
+dd, gg,</hi> in Zumaya dagegen klar <hi rend="unknown"
+            rendition="#none">dx = dž</hi>, in Deba schon einfach <hi rend="unknown"
+            rendition="#none">x = š</hi>. Was die Schreibung von <hi rend="unknown" rendition="#none">r</hi> als <hi
+            rend="unknown"
+            rendition="#none">rr</hi> vor Konsonannten betrifft, so halte ich sie für vollkommen willkürlich, da ich beim besten Willen <hi
+            rend="unknown" rendition="#none">ur bat</hi> “eine Haselnuss” nicht unterscheide von <hi rend="unknown" rendition="#none">
+            <foreign xml:lang="eu">ur pixka bat</foreign>
+
+          </hi> “ein bis[s]chen Wasser”. Ich halte diese Schreibung, wie so vieles andere, für eine Exzentrizität der Aranisten, die viele ohne Weiteres nachahmen (wie bei <foreign xml:lang="eu">
+            <hi rend="unknown" rendition="#none">euzkera, zinetsi</hi>
+
+          </foreign> usw.) ohne dass sich bisher meines Wissens eine Diskussion ergeben hätte. Dagegen scheint mir Azkue Recht zu haben wenn er behauptet, dass <hi
+            rend="unknown" rendition="#none">*Parisn</hi> nicht möglich wäre. Ich habe immer nur <hi rend="unknown"
+            rendition="#none">Parisen, Madrillen, Burdeosen,</hi> usw. gehört mit deutlichem <hi rend="unknown"
+            rendition="#none">e</hi>, ein silbenbildendes <hi rend="unknown"
+            rendition="#none">n</hi>, wie so häufig ist im <ref
+            target="https://gams.uni-graz.at/o:hsa.languages#L.667">Deutschen</ref>, scheint nicht zu existieren. Natürlich muss ich hier wie auch im Vorhergehenden den Vorbehalt machen, dass ich auch lange nicht alle Gegenden des <placeName
+            ref="https://gams.uni-graz.at/o:hsa.places#PL.5906">Baskenlandes</placeName> durchforscht habe und nur so weit urteilen kann, wie meine Erfah<pb
+            facs="#IMG.14"
+            n="19"/>rung und die Schärfe meines Gehöres reichen; ich werde später sicher noch viel ergänzen können zu dem Vorhergesagten, vielleicht auch manches verbessern müssen. Im Anfang vermochte ich in fliessender Rede <hi
+            rend="unknown" rendition="#none">s</hi> von <hi rend="unknown" rendition="#none">z</hi> nicht zu unterscheiden. Erst nach und nach schärfte sich mein Gehör und stellte sich auf diese in unserer Sprache nicht vorhandenen Lautschattierungen ein.</p>
+        <p>Wie sich die Diskussion betr. <hi rend="unknown" rendition="#none">
+            <foreign xml:lang="eu">euskaara</foreign> ~ <foreign xml:lang="eu">
+euskera</foreign>
+
+          </hi> gestaltet hat, ist mir nicht bekannt. Ich vermute jedoch, dass ohne auf die Frage der ursprünglicheren Form einzugehen, jeder für die ihm geläufigste gestimmt hat, also die Ostbasken u. Navarrer für <foreign xml:lang="eu">
+            <hi rend="unknown" rendition="#none">euskara</hi>
+          </foreign>, die Westbasken für <foreign xml:lang="eu">
+            <hi rend="unknown" rendition="#none">
+euskera</hi>
+
+          </foreign>, wobei natürlich die Letzteren überwogen. Vor Labialen spricht man meiner Ansicht nach, wie ja auch in anderen Sprachen, <hi
+            rend="unknown" rendition="#none">m</hi> und nicht <hi rend="unknown"
+            rendition="#none">n</hi>, obwohl das <hi rend="unknown"
+            rendition="#none">m</hi> natürlich nicht so genau u. deutlich artikuliert wird wie z. B. zwischen Vokalen. Wer das in der Literatur der westlichen Basken heute allein herrschende <hi
+            rend="unknown"
+            rendition="#none">n</hi> aufgebracht hat, ist mir im Augenblick auch nicht gegenwärtig. Ich bin aber nicht abgeneigt, es Arana-Goiri oder einem<pb
+            facs="#IMG.15"
+            n="20"/> seiner Schüler in die Schuhe zu schieben. Arana-Goiri suchte ja bewusst immer das Trennende von anderen Sprachen, er hob die Gegensätze hervor, um seinem Volke und dessen Sprache eine möglichst gut charakterisierte Persönlichkeit zu schaffen. Man spricht also zweifellos <hi
+            rend="unknown" rendition="#none">
+            <foreign xml:lang="eu">zembat</foreign>, <foreign xml:lang="eu">
+aimbat</foreign>, <foreign
+            xml:lang="eu">egumbat</foreign>.</hi> Der vollständige Übergang von (<hi rend="unknown"
+            rendition="#none">*nb</hi>?) &gt;
+<hi rend="unknown" rendition="#none">mb</hi> &gt;
+<hi rend="unknown"
+            rendition="#none">
+m</hi> findet sich ja in <hi rend="unknown" rendition="#none">
+            <foreign xml:lang="eu">zemat</foreign>, <foreign xml:lang="eu">amildu</foreign>
+          </hi> neben <foreign xml:lang="eu">
+            <hi rend="unknown" rendition="#none">
+anbildu</hi>
+          </foreign> (sicher mit <hi rend="unknown"
+            rendition="#none">*bil</hi> rund, rollen zusammenhängend). Dass Azkue der sehr kühnen Bildung Aranas <foreign xml:lang="eu">
+            <hi rend="unknown" rendition="#none">gaimel</hi>
+          </foreign> stattgegeben hat, wundert mich, da er sonst sehr skeptisch ist. Bei <foreign xml:lang="eu">
+            <hi rend="unknown" rendition="#none">oiñ oñ</hi>
+
+          </foreign> handelt es sich wirklich, wie [S]ie vermuten, um mundartliche Verschiedenheit. Man hört in Guipuzcoa gewöhnlich <foreign xml:lang="eu">
+            <hi rend="unknown" rendition="#none">oña, olloa</hi>
+          </foreign> und nur zweilen hörte ich deutlich <foreign xml:lang="eu">
+            <hi rend="unknown" rendition="#none">i oiña.</hi>
+          </foreign> In Südguipúzcoa ist da[s] <hi rend="unknown"
+            rendition="#none">i</hi> offenbar ganz aufgesogen und hat nur Spuren seines Vorhandengewesenseins im Umlaut hinterlassen: <foreign xml:lang="eu">
+            <hi rend="unknown" rendition="#none">oiñe</hi>
+          </foreign> der Fuss, Azkue sieht diesen Umlaut als Beweis dafür an, dass das i noch vorhanden ist und<pb
+            facs="#IMG.16"
+            n="21"/> will es bei gesteigerter Aufmerksamkeit auch noch immer deutlich vernehmen. Ormaechea teilt mir nun mit, dass dieses <hi
+            rend="unknown" rendition="#none">i</hi> in <hi rend="unknown"
+            rendition="#none">Navarra</hi> noch überall deutlich gesprochen wird. Es kommt wohl noch etwas hinzu, das Azkue trotz vielfacher Anfeindungen gerade in diesem Punkte bestimmt hat, immer <foreign xml:lang="eu">
+            <hi rend="unknown" rendition="#none">oillo, oiña, kankaillu</hi>
+          </foreign> zu schreiben. Er möchte in der späteren <foreign xml:lang="el">
+            <hi rend="unknown" rendition="#none">κοινή</hi>
+
+          </foreign> ganz auf die Mouillierung verzichten und schlägt deshalb jetzt schon einen Mittelweg ein. Seinem Wunsche entsprechend habe ich in seiner neuesten Novelle <hi
+            rend="unknown"
+            rendition="#none">Latsibi</hi>, die ich gerade in diesen Tagen für ihn aus dem bizkayaschen in das Zentralbaskische (oder besser gesagt in eine darauf beruhende Mundart, in deren Aufbau aber ausserdem alle anderen von Bilbao bis zum Roncal beteiligt sind) übertragen habe, den gleichen Weg eingeschlagen und aus demselben Grunde auch <hi
+            rend="unknown" rendition="#none">j</hi> durch <hi rend="unknown"
+            rendition="#none">y</hi> ersetzt, obwohl ich nur nicht verhehle, dass dadurch die (Schrift-) Sprache um einen Laut ärmer wird, dass<pb
+            facs="#IMG.17" n="22"/> also diese Reform auch ihre Schattenseite hat.</p>
+        <p> Nun zu <hi rend="unknown" rendition="#none">den ~ <foreign xml:lang="eu">
+danik</foreign> ( <foreign xml:lang="eu">dandik</foreign>)</hi>
+        </p>
+        <p> Ich glaubte die Erklärung von <hi rend="unknown" rendition="#none">dan *da en</hi> mehrfach gelesen zu haben, habe mich aber wohl getäuscht, denn ich finde sie nur in <bibl>
+            <ref target="https://gams.uni-graz.at/o:hsa.bibliography#BIBL.4409">(1918) Rev. IX, S. 185, Anm. 2, in Saroïhandys Artikel: “Remarques sur le verbe labourdin”.</ref>
+          </bibl>
+          <hi rend="unknown"
+            rendition="#none">Den</hi> als Verbalform ist, glaube ich, in Guip. ganz unbekannt, als adjektiv <hi
+            rend="unknown"
+            rendition="#none">all(e, s)</hi> im Nordosten ziemlich häufig, wird aber nach Südwesten, also dort wo die Bindevokale fehlen oder assimiliert werden, immer seltener: in Legazpia sagt man für alles, alle <hi
+            rend="unknown" rendition="#none">dana</hi>, emphatisch <hi rend="unknown"
+            rendition="#none">diana, ďana</hi> (obwohl bei “sie sind” Umlaut eintritt: <hi rend="unknown"
+            rendition="#none">die, dire</hi>) und nur selten emphatisch <hi rend="unknown"
+            rendition="#none">den-dena</hi>. Zu <hi rend="unknown" rendition="#none">den ~ <foreign xml:lang="eu">danik</foreign>
+          </hi> stimmt ja auffallend <hi rend="unknown" rendition="#none">duen(a)</hi> als Verbalform <hi rend="unknown"
+            rendition="#none">~ dun</hi> als Suffix, womit natürlich diese Erscheinung noch nicht geklärt<pb
+            facs="#IMG.17"
+            n="23"/> ist. Auch da wo man dem Bindevokal abhold ist, unterscheidet man z. B. (Legazpia) <hi
+            rend="unknown" rendition="#none">dôn(a)~ dun (<foreign xml:lang="eu">txerridun</foreign>, <foreign xml:lang="eu">esnedun</foreign>
+          </hi>). Erwähnen möchte ich noch die Zielform <foreign xml:lang="eu">
+            <hi rend="unknown" rendition="#none">dikiat</hi>
+          </foreign> “ich es dir” bei Lardizabal (und nach ihm?), Bonaparte, Campión im Gegensatz zur Bezugsform <hi
+            rend="unknown" rendition="#none">diat</hi> “ich es dir”. Ich habe ganz Guipúzcoa vergeblich nach <foreign xml:lang="eu">
+            <hi rend="unknown" rendition="#none">
+dikiat</hi>
+
+          </foreign> ausgehorcht und bin fast zu der Überzeugung gekommen, dass nicht Arana-Goiri und seine Anhänger die ersten “Verbesserer” ode[r] “Verböserer” des Zeitwortes waren sonder vielleicht schon Lardizabal, der die verschiedenen Dialekte des Bask. mit behandelte und feststellte, dass in seinem Heimatdialekt Bezug[s]-. u. Zielform in diesem Fall zusammenfielen (nur im Plur unterscheidet man <foreign xml:lang="eu">
+            <hi rend="unknown" rendition="#none">zituat, zetiat, datuat</hi>
+          </foreign> “ich sie dir” = Bezugsform von <foreign xml:lang="eu">
+            <hi rend="unknown" rendition="#none">dizkiat, dixkiat</hi>
+          </foreign> “ich sie dir” = Zielform). Er fand dass das Bizk. mit seinem <foreign xml:lang="eu">
+            <hi rend="unknown" rendition="#none">juat — deuba[t], dostat</hi>
+          </foreign> , (letztere Form in Oñate, Mondragón für<pb facs="#IMG.18" n="24"/>
+          <foreign xml:lang="eu">
+            <hi rend="unknown" rendition="#none">*doskat</hi>
+          </foreign> und das Labort. mit seinem <hi rend="unknown" rendition="#none">
+            <foreign xml:lang="eu">diat</foreign> (B.) — <foreign
+            xml:lang="eu">dauat</foreign> (Z.)</hi> einen Vorsprung vor dem guip. hatten, das für beides diat verwendet und ergänzte vielleicht die fehlende Form. Auch <hi
+            rend="unknown" rendition="#none">zu <foreign xml:lang="eu">zatorkit</foreign>, <foreign
+            xml:lang="eu">
+zabilkit</foreign>,</hi> letzteres ebenfalls bei Lardizabal, erregen bei mir grösstes Misstrauen. Vielleicht mache ich diese ganzen Fragen demnächst einmal zum Gegenstand einer Erörterung in der <hi
+            rend="unknown" rendition="#none">Rev</hi>. besonders, weil man allen Ernstes die Rückkehr zu <foreign xml:lang="eu">
+            <hi rend="unknown" rendition="#none">*zator</hi>
+          </foreign> usw. gepredigt hat; denn <foreign xml:lang="es">
+            <hi rend="unknown" rendition="#none">la lógica es la suprema ley del verbo vasco</hi>
+          </foreign> sagt Arana Goiri.</p>
+        <p> In Punkto Zeitwort hege ich für Larramendi —der ja ein gutes Teil seines Wörterbuches “<foreign
+            xml:lang="es">de su propia cosecha</foreign>” geknetet hat— die grösste Hochachtung und habe bei ihm kaum eine verdächtige Form entdecken können. Ja gerade die unregelmässigen Formen wie <foreign xml:lang="eu">
+            <hi rend="unknown" rendition="#none">zizekagun</hi>
+          </foreign> und ähnliche bestärken in mir seine<pb facs="#IMG.19"
+            n="25"/> Glaubwürdigkeit, da man ihr Entstehen vielerorts geradezu mit Händen greifen kann. Man kann überall verfolgen, dass die häufiger gebrauchten Formen auf die weniger gebrauchten einwirken und sie oft ganz umgestalten. Besonders das Praesens hat die seltsamsten Mischformen mit dem Imperfekt erzeugt (z. B. <foreign xml:lang="eu">
+            <hi rend="unknown" rendition="#none">
+zendiozun</hi>
+          </foreign> für <foreign xml:lang="eu">
+            <hi rend="unknown" rendition="#none">zenion, zendakizun</hi>
+          </foreign> für <foreign xml:lang="eu">
+            <hi rend="unknown" rendition="#none">zenekien, gendiogun, gendiun</hi>
+          </foreign> für <foreign xml:lang="eu">
+            <hi rend="unknown" rendition="#none">
+genion</hi>
+
+          </foreign>). Es wäre sehr interessant alles das aufzuzeichnen, wa[s] täglich an solchen und ähnlichen Neubildungen gehört wird. Das Volk kennt eben seine Grammatik nicht und, da es nicht mehr so tief in seiner Sprache wurzelt und der spanische Einfluss in jener Hinsicht —auch in syntaktischer— immer grösser wird, nimmt auch die Verwirrung dauernd zu. Aber es findet sich niemand, auch kein Akademiker der sich zum Ziel gesetzt hätte in diesem Punkte zu forschen. Er würde sicher für “<foreign xml:lang="eu">chiflado</foreign>” gelten.</p>
+        <p> Ich bin nun sehr gespannt auf Azkues Darstellung des Zeitwortes in seiner <foreign xml:lang="es">
+            <hi rend="unknown" rendition="#none">Morfología</hi>
+          </foreign>. Er hat mir gerade Lardizabals Grammatik<pb facs="#IMG.20"
+            n="26"/> gesandt, mit der Bitte, alle mir verdächtig erscheinenden Formen anzugeben. Lacombe äusserte einmal —aber natürlich nicht während einer akademischen Sitzung— seiner Meinung nach sei die Mehrzahl der Verbalformen von den Grammatikern erfunden worden. Diese Behauptung halte ich für sehr übertrieben, obwohl etwas Wahres daran ist. Es ist mir wirklich zweifelhaft, ob man im letzten Jahrhundert noch irgendwo gesagt hat <hi
+            rend="unknown" rendition="#none">
+            <foreign xml:lang="eu">
+zitzazkidaketenan</foreign>.</hi> Die <foreign
+            xml:lang="es">
+tratadistas</foreign> mit dem Hauptziel der <foreign xml:lang="es">
+            <hi rend="unknown" rendition="#none">perfección</hi>
+
+          </foreign> nach Astarloa wollen immer möglichst vollständige Konjugationsklassen darstellen und kommen dadurch wohl einmal in die Lage fehlende Formen, oder solche, die sie nicht gehört zu haben, nach eigenem Gutdünken zu ergänzen, wobei sie dann sehr wohl “logischer” und korrekter sein können als das Volk gewesen wäre. Andererseits vermisse ich die Erwähnung von Zielformen mit der 1. u. 2. Person als Subjekt (z. B. <hi
+            rend="unknown"
+            rendition="#none">narauka, arauka</hi> bei Leiz.), die meiner Ansicht nach sicher noch hin u. wieder bes. von sprachgewandte[n] alten Frauen gebraucht werden, obwohl mir noch keine aufgefallen ist. Wie mir Olabide mitteilt, hat Eleizalde einige derartige Formen<pb
+            facs="#IMG.20" n="27"/> gesammelt und selbst in <hi rend="unknown" rendition="#none">Garoa</hi> (von D. Agirre) S. 76, Vers 2: </p>
+        <p>
+          <foreign xml:lang="eu">
+            <hi rend="unknown" rendition="#none"> Maite kutuna ezaidazala</hi>
+          </foreign>
+        </p>
+        <p>
+          <foreign xml:lang="eu">
+            <hi rend="unknown" rendition="#none">Jaun zerukoak berriz ken!</hi>
+          </foreign>
+        </p>
+
+        <p> finde ich eine solche, die offenbar noch nicht aufgefallen ist und deren leichte Verständlichkeit das Vorhandensein mehrerer solcher Formen wahrscheinlich macht: <foreign xml:lang="eu">
+            <hi rend="unknown" rendition="#none">
+e/zaidazala</hi>
+          </foreign>, “er möge dich nur / nicht” gewissermassen zusammengesetzt aus <foreign xml:lang="eu">
+            <hi rend="unknown" rendition="#none">
+zaidala</hi>
+          </foreign> (westguipuzc. u. bizc. für <foreign xml:lang="eu">
+            <hi rend="unknown" rendition="#none">zaitzala) + dizadala.</hi>
+          </foreign>
+        </p>
+        <p>Nachdem ich diesen hastig und bruchstückweise niedergeschriebenen Brief noch einmal durchgelesen habe, finde ich, dass er noch viel wirrer und unübersichtlicher ist, als ich befürchtet hatte. Hoffentlich strengt Sie das Lesen dieser Zeilen nicht zu sehr an und finden Sie unter diesen regellosen Gedanken das Eine oder Andere, was Sie interessiert.</p>
+
+        <p> Nun noch eine persönliche Bemerkung. Eben erhielt ich einen Brief von einem guten Freunde meines Vaters, den auch ich in meiner Jugend in <placeName
+            ref="https://gams.uni-graz.at/o:hsa.places#PL.5989">Spanien</placeName> flüchtig kennen gelernt hatte und dessen Namen ich auch in der <ref target="https://gams.uni-graz.at/o:hsa.subjects#S.5799">
+            <hi rend="unknown" rendition="#none">Euskara</hi>
+          </ref> verzeichnet gefunden hatte: Herrn <persName
+            ref="https://gams.uni-graz.at/o:hsa.persons#P.2767">Rudolf Sprenger</persName>, der auch den (deutschen) Titel Hofrat führt<pb
+            facs="#IMG.21" n="28"/> und in gleichem Alter steht, wie Sie. Er teilte mir vielerlei [I]nteressantes aus seinem Leben unter den Basken mit und kennt auch Sie von Ihrem damaligen Ausfluge nach Donostia, wo er damals deutscher Konsul war. Von ihm erfahre ich auch, dass Sie die Bekanntschaft jenes schrullenhaften alten Geistlichen (Don Gaspar, Orregui?) gemacht haben, der ja auch Lehrer der Königin Mutter Maria Cristina gewesen ist. Sie hielt aber nicht lange aus, da er wie sich ihre Majestät ausdrückte, “zu langstielig” war.</p>
+
+        <p>Dass die hohe Dame das Baskische noch nicht ganz verlernt hat, konnte ich im vorigen Sommer in Fuenterrabia feststellen, wo ich sie zusammen mit ihrem jüngsten Bruder —sie nannte ihn Egi— traf und Stadt und Schloss besichtigte. Wir unterhielten uns längere Zeit und kamen bald auf das <foreign xml:lang="eu">
+            <hi rend="unknown" rendition="#none">euskera</hi>
+
+          </foreign> zu sprechen, wobei sie ziemliche Kenntnisse und Interesse zeigte, während der Erzherzog Beziehungen fand zwischen den “baskischen” und schwäbischen Pferdegeschirren und die Beachtung solcher Beziehungen bei ethnologischen Studien empfahl. Als wir die Plattform des alten Schlosses betraten und <placeName ref="https://gams.uni-graz.at/o:hsa.places#PL.5905">
+Frankreich</placeName> daliegen sahen, machte die hohe Dame ihrem Unmut u. Groll jedoch in reinstem österreichischen Deutsch Luft und es war ein Glück, dass niemand aus dem Gefolge das Deutsche versteht.</p>
+        <p>Mögen Sie diese Zeilen bei bestem Wohlbefinden antreffen.</p>
+        <closer>
+          <salute>In Dankbarkeit</salute>
+          <lb/>
+          <salute>Ihr</salute>
+          <lb/>
+          <signed>
+            <persName ref="https://gams.uni-graz.at/o:hsa.persons#P.1068">G. Bähr</persName>
+          </signed>
+        </closer>
+        <postscript>
+          <p>Cand chem et phil.</p>
+        </postscript>
+      </div>
+    </body>
+  </text>
+</TEI>
+<?xml-model href="https://gams.uni-graz.at/o:hsa.odd/RNG" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://gams.uni-graz.at/o:hsa.odd/RNG" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>

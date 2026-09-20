@@ -1,0 +1,285 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader xml:lang="de">
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Antonio Sánchez Moguel an Hugo Schuchardt (01-09931)</title>
+        <author ana="marcrelator:aut">
+          <persName ref="https://gams.uni-graz.at/o:hsa.persons#P.2591">
+            <forename>Antonio</forename>
+            <surname>Sánchez Moguel</surname>
+          </persName>
+        </author>
+        <editor ana="marcrelator:edt">
+          <persName>
+            <forename>Gerhard</forename>
+            <surname>Steingress</surname>
+          </persName>
+        </editor>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ana="marcrelator:pbl">
+          <orgName corresp="https://sprachwissenschaft.uni-graz.at" ref="http://d-nb.info/gnd/807328-4">Institut für Sprachwissenschaft,
+                  Karl-Franzens-Universität Graz</orgName>
+        </publisher>
+        <authority ana="marcrelator:his">
+          <orgName corresp="https://informationsmodellierung.uni-graz.at" ref="http://d-nb.info/gnd/1137284463">Zentrum für
+                  Informationsmodellierung - Austrian Centre for Digital Humanities,
+                  Karl-Franzens-Universität Graz</orgName>
+        </authority>
+        <distributor ana="marcrelator:rps">
+          <orgName ref="https://gams.uni-graz.at">GAMS - Geisteswissenschaftliches
+                  Asset Management System</orgName>
+        </distributor>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-nc/4.0">Creative Commons
+                  BY-NC 4.0</licence>
+        </availability>
+        <date ana="dcterms:issued" when="2022">2022</date>
+        <pubPlace ana="marcrelator:pup">Graz</pubPlace>
+        <idno corresp="http://schuchardt.uni-graz.at/id/letter/5" type="PID">o:hsa.letter.5</idno>
+        <idno source="http://schuchardt.uni-graz.at" type="altIdentifier">01-09931</idno>
+      </publicationStmt>
+      <seriesStmt>
+        <title ref="https://schuchardt.uni-graz.at">Hugo Schuchardt Archiv</title>
+        <respStmt ana="marcrelator:pbl">
+          <resp>Herausgeber</resp>
+          <persName ref="http://d-nb.info/gnd/111679893">
+            <forename>Bernhard</forename>
+            <surname>Hurch</surname>
+            <orgName ref="http://d-nb.info/gnd/36157-4">Karl-Franzens-Universität Graz</orgName>
+          </persName>
+        </respStmt>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>Österreich</country>
+            <region>Steiermark</region>
+            <settlement>Graz</settlement>
+            <institution>Karl-Franzens-Universität Graz</institution>
+            <repository ref="https://ub.uni-graz.at/de/bibliotheken/sondersammlungen">Universitätsbibliothek Graz Abteilung für Sondersammlungen</repository>
+            <idno type="shelfmark">09931</idno>
+          </msIdentifier>
+          <msContents>
+            <textLang mainLang="es"/>
+            <msItem>
+              <author ref="https://gams.uni-graz.at/o:hsa.persons#P.2591">
+                <forename>Antonio</forename>
+                <surname>Sánchez Moguel</surname>
+              </author>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <support>
+                  <material ref="http://vocab.getty.edu/aat/300014109">Papier</material>
+                  <objectType>Brief</objectType>
+                </support>
+                <extent>
+                  <measure quantity="4" unit="pages">4 Seiten</measure>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origPlace ana="marcrelator:prp" corresp="https://gams.uni-graz.at/o:hsa.places#PL.5" ref="http://sws.geonames.org/3117735">Madrid</origPlace>
+              <origDate ana="dcterms:created" when="1879-04-01">1879-04-01</origDate>
+            </origin>
+            <provenance>
+                     Hugo Schuchardts wissenschaftlicher Nachlass (Bibliothek,
+                     Werkmanuskripte und wissenschaftliche Korrespondenz) kam nach seinem Tod 1927
+                     laut Verfügung in seinem Testament als Geschenk an die UB Graz.
+                  </provenance>
+          </history>
+        </msDesc>
+        <bibl type="print">
+          <author>
+            <persName>
+              <forename>Gerhard</forename>
+              <surname>Steingress</surname>
+            </persName>
+          </author>
+          <date when="1996">1996</date>
+          <title>Cartas a Schuchardt. La
+               correspondencia inédita de los folkloristas y otros intelectuales españoles con
+               el romanista y linguista Hugo Schuchardt</title>
+          <pubPlace>Sevilla</pubPlace>
+          <publisher>Fundación Machado</publisher>
+        </bibl>
+        <bibl type="online">
+          <author ana="marcrelator:aut">
+            <persName>
+              <forename>Gerhard</forename>
+              <surname>Steingress</surname>
+            </persName>
+          </author>
+          <date when="2009">2009</date>
+          <title>Die Korrespondenz zwischen Antonio Sánchez Moguel und Hugo Schuchardt</title>
+          <series>
+            <title>Hugo Schuchardt Archiv</title>
+            <editor>
+              <forename>Bernhard</forename>
+              <surname>Hurch</surname>
+            </editor>
+          </series>
+          <ref target="http://schuchardt.uni-graz.at/id/letters/2591"/>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>Die Datenmodellierung orientiert sich am <ref
+            target="https://www.deutschestextarchiv.de/doku/basisformat/">DTA-Basisformat</ref>,
+               <ref
+            target="https://www.ediarum.org/">ediarum</ref> und der
+               <ref target="https://github.com/TEI-Correspondence-SIG/correspDesc">CorrespDesc-SIG</ref>.</p>
+        <p>Das auf DTABf-Modellierungsschema wurde für die Zwecke des Projektes angepasst und befindet sich unter <ref target="https://gams.uni-graz.at/o:hsa.odd"/>
+        </p>
+      </editorialDecl>
+      <projectDesc>
+        <ab>
+          <ref target="info:fedora/context:hsa" type="context">Hugo Schuchardt Archiv</ref>
+        </ab>
+        <p>Das Hugo Schuchardt Archiv widmet sich der Aufarbeitung des Gesamtwerks und des Nachlasses von Hugo Schuchardt (1842-1927).
+               Die Onlinepräsentation stellt alle Schriften sowie eine umfangreiche Sekundärbibliografie zur Verfügung.
+               Die Bearbeitung des Nachlasses legt besonderes Augenmerk auf die Erschließung der Korrespondenz,
+               die zu großen Teilen bereits ediert vorliegt, und der Werkmanuskripte.</p>
+      </projectDesc>
+      <listPrefixDef>
+        <prefixDef ident="marcrelator" matchPattern="([a-z]+)" replacementPattern="http://id.loc.gov/vocabulary/relators/$1">
+          <p>Rollen-Taxonomie</p>
+        </prefixDef>
+        <prefixDef ident="dcterms" matchPattern="([a-z]+)" replacementPattern="http://purl.org/dc/terms/$1">
+          <p>Datumstaxonomie</p>
+        </prefixDef>
+        <prefixDef ident="skos" matchPattern="([a-z]+)" replacementPattern="http://www.w3.org/2004/02/skos/core#$1">
+          <p>Thesaurustaxonomie</p>
+        </prefixDef>
+      </listPrefixDef>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc ref="https://gams.uni-graz.at/o:hsa.letter.5">
+        <correspAction type="sent">
+          <persName corresp="https://gams.uni-graz.at/o:hsa.persons#P.2591" ref="https://viaf.org/viaf/301784005">
+            <forename>Antonio</forename>
+            <surname>Sánchez Moguel</surname>
+          </persName>
+          <placeName corresp="https://gams.uni-graz.at/o:hsa.places#PL.5" key="#GID.1" ref="http://sws.geonames.org/3117735">Madrid</placeName>
+          <date when="1879-04-01">1879-04-01</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName corresp="https://gams.uni-graz.at/o:hsa.persons#P.109" ref="https://viaf.org/viaf/261931943">
+            <forename>Hugo</forename>
+            <surname>Schuchardt</surname>
+          </persName>
+        </correspAction>
+      </correspDesc>
+      <textClass>
+        <keywords scheme="cirilo:normalizedPlaceNames">
+          <list>
+            <item>
+              <placeName xml:id="GID.1">
+                <country>Spain</country>
+                <settlement>Madrid</settlement>
+                <name ref="http://geonames.org/3117735" type="fcode:PPLC">Madrid</name>
+                <location>
+                  <geo>-3.70256,40.4165</geo>
+                </location>
+              </placeName>
+            </item>
+          </list>
+        </keywords>
+        <keywords ana="correspondence">
+          <list>
+            <item>
+              <ref target="info:fedora/context:hsa.letters.2591" type="context">
+                        Korrespondenz Antonio Sánchez Moguel - Hugo Schuchardt
+                     </ref>
+            </item>
+            <item>
+              <ref target="info:fedora/context:hsa.letters" type="context">Korrespondenz</ref>
+            </item>
+          </list>
+        </keywords>
+        <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation">Wissenschaft</classCode>
+        <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation">Sprachwissenschaft</classCode>
+        <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation">Brief</classCode>
+      </textClass>
+      <langUsage>
+        <language ident="es">Spanisch</language>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <facsimile>
+    <surface>
+      <graphic mimeType="image/jpeg" url="info:fedora/o:hsa.letter.5" xml:id="IMG.1">
+        <desc>
+          <ref
+            target="https://ub.uni-graz.at/de/bibliotheken/sondersammlungen">Universitätsbibliothek Graz Abteilung für Sondersammlungen</ref>, <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Creative commons CC BY-NC https://creativecommons.org/licenses/by-nc/4.0/</ref>
+        </desc>
+      </graphic>
+    </surface>
+    <surface>
+      <graphic mimeType="image/jpeg" url="info:fedora/o:hsa.letter.5" xml:id="IMG.2">
+        <desc>
+          <ref
+            target="https://ub.uni-graz.at/de/bibliotheken/sondersammlungen">Universitätsbibliothek Graz Abteilung für Sondersammlungen</ref>, <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Creative commons CC BY-NC https://creativecommons.org/licenses/by-nc/4.0/</ref>
+        </desc>
+      </graphic>
+    </surface>
+    <surface>
+      <graphic mimeType="image/jpeg" url="info:fedora/o:hsa.letter.5" xml:id="IMG.3">
+        <desc>
+          <ref
+            target="https://ub.uni-graz.at/de/bibliotheken/sondersammlungen">Universitätsbibliothek Graz Abteilung für Sondersammlungen</ref>, <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Creative commons CC BY-NC https://creativecommons.org/licenses/by-nc/4.0/</ref>
+        </desc>
+      </graphic>
+    </surface>
+    <surface>
+      <graphic mimeType="image/jpeg" url="info:fedora/o:hsa.letter.5" xml:id="IMG.4">
+        <desc>
+          <ref
+            target="https://ub.uni-graz.at/de/bibliotheken/sondersammlungen">Universitätsbibliothek Graz Abteilung für Sondersammlungen</ref>, <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Creative commons CC BY-NC https://creativecommons.org/licenses/by-nc/4.0/</ref>
+        </desc>
+      </graphic>
+    </surface>
+  </facsimile>
+  <text>
+    <body>
+      <div subtype="original" type="letter" xml:id="L.5" xml:lang="es">
+        <pb facs="#IMG.1" n="1"/>
+        <dateline>Sr. D. Hugo Schuchardt.</dateline>
+        <opener>Mi carísimo amigo:</opener>
+        <p>Ante todo, celebro infinito su feliz llegada a <hi rend="unknown" rendition="#none">
+esa elísea</hi> tierra de mi cariño y mis recuerdos, mi idolatrada Sevilla; y que haya tenido la bondad de escribirme y en términos tan afectuosos y con tanta confianza como lo hace, esto me complace sobre manera, por que responde en todo a mi manera de ser, que es así por completo.</p>
+        <p>Veo con verdadero asombro los grandes progresos de Ud. en nuestro rico y pintoresco idioma castellano, y creo, por el contrario de lo que Ud. imagina, que son cartas indignas de un discípulo de Diez. No conozco, entre las muchas personas extranjeras que he conocido, quien tan pronto se haya puesto al corriente de las dificultades con que se tropieza al aprender el español, y que las venza tan concertadamente. Prosiga Ud., amigo mio, esa senda tan honrosa a un tiempo para Alemania y para España.</p>
+        <pb facs="#IMG.2" n="2"/>
+        <p>El artículo que he dedicado a Ud. no ha salido aun en La America, por la abundancia de material antiguo que tiene la redacción, pero verá la publicación luz de un número a otro; y, tan luego como esto suceda, enviaré a Ud. los ejemplares que guste, así como a su Sr. padre, celebrando en el alma esta ocasión que se me presenta de ofrecerle mis respetos. Siento infinito que no haya sido posible obsequiarle en sus cumpleaños, por más que el obsequio, como mío, valga bien poco.</p>
+        <p>
+          <hi rend="unknown" rendition="#none">Envidio</hi> a Ud. los agradables días que ha de pasar en esa. ¡Pobre de mí que no puedo hace ya cuatro años pasar una temporadita [a] orillas del Guadalquivir!</p>
+
+        <p> Efectivamente, se encuentra en esta el Sr. Fastenrath; quien dentro de dos o tres días saldrá para esa. Le he hablado de Ud. largamente y desea conocerle. Ha tomado nota de las señas del domicilio de Ud. para saludarle cuando llegue. Ha pasado aquí días muy agradables. El sábado último asistió a la lectura que dió nuestro Campoamor del prólogo de sus poemas y que le proporcionó una ovación extraordinaria. Creo que <pb
+            facs="#IMG.3" n="3"/> es de lo mejor que ha escrito. Ya lo recibirá Ud. tan luego como se publique.</p>
+        <p> Dará Ud. mis cariñosos recuerdos a Montoto, D. Gabriel, Segovia y demás amigos, y recíbalos muy expresivos de Campoamor, Moreno Nieto y demás compañeros.</p>
+        <p> Estoy en un todo de acuerdo con Ud. tocante a la primordialidad histórica de la Poesía sobre la Prosa, y al carácter amatorio de las primeras manifestaciónes poéticas. Sobre que tiene fundamentos solidísimos en la Antroplogía, cuenta con la confirmación que le presten las pruebas históricas hasta donde pueden alcanzar. Aun que la historia no lo diga, el sentimiento mismo de lo bello, la naturaleza misma del hombre, bastarían a demostrarlo.</p>
+
+        <p> Y ya que hablamos de esto tan intimamente relacionado con la Filología, no puedo menos de ratificar por mi parte nuestro proyecto de <hi
+            rend="unknown" rendition="#none">Revista</hi>. Vaya Ud. meditando y madurando este pensamiento y cuente conmigo para todo. Cuando Ud. vuelva por aquí lo ultimaremos.</p>
+        <p> El Sr. Villanova me dará un día de estos la nota prometida.</p>
+        <pb facs="#IMG.4" n="4"/>
+        <p>Sin más por hoy, sabe Ud. cuán de veras y <hi rend="unknown" rendition="#none">ex toto corde</hi> [?] es de Ud. af[ectísi]mo y apasionado amigo</p>
+        <closer>
+          <salute>q.l.m.l.b.</salute>
+          <signed>
+            <persName ref="https://gams.uni-graz.at/o:hsa.persons#P.2591">Antº S[anc]hez Moguel</persName>
+          </signed>
+        </closer>
+        <dateline>Madrid 1º Abril/79</dateline>
+      </div>
+    </body>
+  </text>
+</TEI>
+<?xml-model href="https://gams.uni-graz.at/o:hsa.odd/RNG" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://gams.uni-graz.at/o:hsa.odd/RNG" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
