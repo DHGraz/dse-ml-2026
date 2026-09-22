@@ -1,0 +1,7 @@
+everyday if you want to use the Google drive files, you need to run mounting demands:
+from google.colab import drive
+drive.mount('/content/drive')
+
+Tuesday
+sbert.net
+chunking is important for good embeddings (small enough to fit the model and large enough to retain full sentence meaning)
