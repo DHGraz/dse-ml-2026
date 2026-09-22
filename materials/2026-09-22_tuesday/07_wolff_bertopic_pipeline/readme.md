@@ -5,4 +5,4 @@
 
 ## Resources
 
-- DH Conference Abstracts: https://drive.google.com/drive/folders/1miIU7SVrGBJGCQ9ENqbyxPeSeHSaRP2i?usp=sharing
+- DH Conference Abstracts: https://github.com/fernandaalvaf/dh-conferences-abstracts
