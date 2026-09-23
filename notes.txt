@@ -5,3 +5,14 @@ drive.mount('/content/drive')
 Tuesday
 sbert.net
 chunking is important for good embeddings (small enough to fit the model and large enough to retain full sentence meaning)
+
+dh-conference abstracts
+
+Wednesday 
+clustering
+
+does the position of k points matter
+
+how are the datapoints displayed in the dendrogram? by dimension reduction?
+
+for DBSCAN, smaller eps produces more noise data points and more clusters? larger min_samples produce more data noise points and more clusters?
