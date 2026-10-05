@@ -1,7 +1,7 @@
 # School Material Tuesday, 22 September 2026
 
 15:30-17:00: Poster Session (School Participants)
-- Babl, Sophia, Emily Heinz, and Oscar Aquite. 2026. Once Upon a Dataset. Computational Analysis of Fairy Tale Originals, Adaptations, and AI-Generated Texts. [https://github.com/SophiaBabl/Fairytales_project](https://github.com/SophiaBabl/Fairytales_project)
+- Babl, Sophia, Emily Heinz, and Oscar Aquite. 2026. Once Upon a Dataset. Computational Analysis of Fairy Tale Originals, Adaptations, and AI-Generated Texts. [https://github.com/SophiaBabl/Fairytales_project](https://github.com/SophiaBabl/Fairytales_project); [https://doi.org/10.5281/zenodo.23157255](https://doi.org/10.5281/zenodo.23157255)
 - Becker, Niels. 2026. An Edition-In-Progress of Honorius of Kent's *Summa Quaestionum*. 
 - Crescini, Alice. 2026. Literature in Spanish in XVIth century Venice. A network of authors, editors, printers. [https://doi.org/10.5281/zenodo.22881558](https://doi.org/10.5281/zenodo.22881558)
 - Hosseini, Zana. 2026. From Modifiers to Topics: Exploring MAN and WOMAN in Historical Englisch Correspondence.
